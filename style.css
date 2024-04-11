@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #13002B
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 150px;
+    height: 100px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #FFA301;
+
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+
+}
+span{
+    color: #FFA301;
+}
+
+.detel p{
+    color: whitesmoke;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #FFA301;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+.detel a:hover{
+    background-color: rgb(142, 4, 71);
+    color: #FFA301;
+}
+
+.images img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.images{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+/*about section start*/
+
+body{
+    background-color: #13002B;
+}
+
+.about-section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    color: #f1f0ed;
+}
+
+.section-title h2::before{
+    height: 4px;
+    width: 140px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    border-radius: 100%;
+}
+.section-title h2::after{
+    height: 4px;
+    width: 70px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
+    margin-top: 8px;
+    border-radius: 100%;
+}
+
+.about-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about-content h3{
+    padding-left: 15px;
+    color: #f1f0ed;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.about-content p{
+    padding-left: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(207, 199, 199);
+}
+/*personal info*/
+
+.per-info h2{
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    color: #f1f0ed;
+}
+
+.per-info h2::before{
+    height: 3px;
+    width: 280px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    content: '';
+    border-radius: 100%;
+}
+.per-info h2::after{
+    height: 2px;
+    width: 220px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 110px;
+    content: '';
+    margin-top: 8px;
+    border-radius: 100%;
+}
+
+.personal-info{
+    color: #f1f0ed;
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.personal-info .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 50%;
+}
+
+.personal-info .info-item p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #6b6b69;
+}
+
+.personal-info .info-item p span{
+    font-weight: 400;
+    color: #edac3c;
+    display: inline-block;
+    margin-left: 4px;
+}
+.skils{
+    color: #f1f0ed;
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.skilheading h2{
+    padding-top: 100px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    color: #f1f0ed;
+}
+
+.skils .skil-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 50%;
+    margin-bottom: 30px;
+}
+
+.skils .skil-item h5{
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.skils .skil-item .progress{
+    height: 8pz;
+    width: 100%;
+    background-color: #a0998e;
+    border-radius: 4px;
+    position: relative; 
+}
+
+.skils .skil-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #ea9605;
+}
+
+/*.skils .skil-item .skil-percent{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-weight: 400;
+    color: #a0998e;
+    line-height: 40px;
+}
