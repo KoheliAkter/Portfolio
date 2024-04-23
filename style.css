@@ -220,6 +220,9 @@ body{
     display: inline-block;
     margin-left: 4px;
 }
+
+/* skils section*/
+
 .skils{
     color: #f1f0ed;
     flex: 0 0 60%;
@@ -235,6 +238,28 @@ body{
     font-weight: 700;
     position: relative;
     color: #f1f0ed;
+}
+
+.skilheading h2::before{
+    height: 3px;
+    width: 80px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    content: '';
+    border-radius: 100%;
+}
+.skilheading h2::after{
+    height: 2px;
+    width: 60px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    content: '';
+    margin-top: 8px;
+    border-radius: 100%;
 }
 
 .skils .skil-item{
@@ -275,4 +300,45 @@ body{
     font-weight: 400;
     color: #a0998e;
     line-height: 40px;
+}*/
+
+/*education section*/
+
+.education h3{
+    padding-top: 100px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    color: #f1f0ed;
+}
+
+.education h3::before{
+    height: 3px;
+    width: 150px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    content: '';
+    border-radius: 100%;
+}
+.education h3::after{
+    height: 3px;
+    width: 120px;
+    background-color: #FFA301;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    content: '';
+    margin-top: 8px;
+    border-radius: 100%;
+}    
+
+.education{
+    color: #f1f0ed;
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-left: 15px;
+    margin-top: 20px;
 }
