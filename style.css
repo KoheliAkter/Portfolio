@@ -304,7 +304,7 @@ body{
 
 /*education section*/
 
-.education h3{
+.title{
     padding-top: 70px;
     padding-left: 70px;
     font-size: 30px;
@@ -313,7 +313,7 @@ body{
     color: #f1f0ed;
 }
 
-.education h3::before{
+.title::before{
     height: 3px;
     width: 150px;
     background-color: #FFA301;
@@ -323,7 +323,7 @@ body{
     content: '';
     border-radius: 100%;
 }
-.education h3::after{
+.title::after{
     height: 3px;
     width: 120px;
     background-color: #FFA301;
@@ -335,13 +335,13 @@ body{
     border-radius: 100%;
 } 
 
-/*.education{
+.education{
     color: #f1f0ed;
     flex: 0 0 60%;
     max-width: 60%;
     padding-left: 15px;
     margin-top: 20px;
-}*/
+}
 
 .timeline-box{
    /* flex: 0 0 100%;
@@ -349,8 +349,8 @@ body{
     padding-left: 15px;*/
 
     color: #f1f0ed;
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding-left: 15px;
     margin-top: 20px;
 }
@@ -361,13 +361,13 @@ body{
     margin-left: 50%;
     margin-bottom: 30px;
 
-    background-color: rgb(70, 60, 47);
+    background-color: rgb(74, 55, 31);
     padding: 30px 15px;
-    border: 1px solid #a0998e;
+    border: 1px solid #4e4435;
     border-radius: 10px;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 20px #f1bd64;
+    box-shadow: 0 0 20px #917546;
 }
 
 .timeline .timeline-items{
