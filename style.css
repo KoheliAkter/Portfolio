@@ -476,7 +476,7 @@ body{
 }
 
 .service .service-item .service-item-inner{
-    background-color: #9a9794;
+    background-color: #f3f0ee;
     border: 1px solid #8f8473;
     border-radius: 10px;
     padding: 30px 15px;
@@ -485,7 +485,7 @@ body{
 }
 
 .service .service-item .service-item-inner:hover{
-    box-shadow: 0 0 20px rgb(142, 125, 125);
+    box-shadow: 0 0 20px rgb(221, 212, 212);
 }
 
 .service .service-item .service-item-inner .icon{
@@ -517,7 +517,7 @@ body{
 .service .service-item .service-item-inner h4{
     font-size: 18px;
     margin-bottom: 15px;
-    color: #24054a;
+    color: #1f093b;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -526,4 +526,13 @@ body{
     font-size: 16px;
     color: rgb(13, 27, 27);
     line-height: 25px;
+}
+
+/*portfolio section start*/
+
+.portfolio .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
