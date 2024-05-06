@@ -568,3 +568,25 @@ body{
     display: block;
     
 }
+
+/*contact section start*/
+
+.contact .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact-title{
+    color: #FFA301;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-sub-title{
+    color: #e5e1da;
+    font-size: 18px;
+    text-align: center;
+}
