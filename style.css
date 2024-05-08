@@ -630,3 +630,42 @@ body{
     margin-bottom: 20px;
     margin-top: 80px;
 }
+
+.contact .contact-form{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 80px;
+    
+}
+
+.contact .contact-form .col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+}
+
+.contact .contact-form .col-12{
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+.contact .contact-form .form-item{
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.contact .contact-form .form-item .form-control{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #bab3a8;
+    border: 1px solid #6b6b69;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #e8a109;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-form .form-item .form-control:focus{
+    box-shadow: 0 0 20px rgb(241, 243, 190);
+}
