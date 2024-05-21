@@ -549,26 +549,38 @@ body{
     color: #dacfc0;
 }
 
-.portfolio .portfolio-item
+.row .portfolio-item
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    margin-bottom: 30px;
+
+    width: 29%;
+    height: 500px;
+    float: left;
+    margin: 20px;
+    
+    
 }
 
 .portfolio .portfolio-item-inner{
     border: 6px solid rgb(243, 238, 238);
     border-radius: 10px;
-    overflow: hidden;
+    height: 300px;
+    /* overflow: hidden; */
     cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
-    display: block;
+    height: 300px;
+    object-fit: fill;;
+    /* display: block; */
+    
     
 }
-
+.project_p{
+    color: rgb(192, 187, 187);
+    text-align: justify;
+    padding: 20px 10px 10px 10px;
+}
 /*contact section start*/
 
 .contact .container{
@@ -620,7 +632,8 @@ body{
     font-size: 16px;
     line-height: 25px;
     font-weight: 400;
-    color: #dacfc0;
+    color: #9d9891;
+    margin-bottom: 10px;
 }
 
 .contacts-title{
@@ -657,12 +670,12 @@ body{
 .contact .contact-form .form-item .form-control{
     width: 100%;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #bab3a8;
     border: 1px solid #6b6b69;
     padding: 10px 20px;
     font-size: 16px;
-    color: #e8a109;
+    color: #0f0e0b;
     transition: all 0.3s ease;
 }
 
